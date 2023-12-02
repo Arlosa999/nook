@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("./partials/head.ejs") %> 
+    <title>Document</title>
+</head>
+<body>
+    <h1 <%= thisbudget.name %>>Budget Details</h1>
+
+    <ul>
+        <li>Date: <%= thisbudget.date %></li>
+        <li>Name: <%= thisbudget.name %></li>
+        <li>From: <%= thisbudget.from %></li>
+        <li>Amount: <%= thisbudget.amount %></li>
+        <li>Tags: <%= thisbudget.tags %></li>
+    </ul>
+    <nav>
+        <a href="/budgets"><button>Back to Summary Budget</button></a>
+</body>
+</html>

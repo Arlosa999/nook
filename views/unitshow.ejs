@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("./partials/head.ejs") %> 
+    <title>Document</title>
+</head>
+<body>
+    <h1 <%= thisunit.name %>>Rental Unit Details</h1>
+
+    <ul>
+        <li>Unit: <%= thisunit.unit %></li>
+        <li>City: <%= thisunit.city %></li>
+        <li>Address: <%= thisunit.address %></li>
+        <li>Rented: <%= thisunit.rented %></li>
+        <li>Rented from: <%= thisunit.rentedfrom %></li>
+        <li>Rented until: <%= thisunit.renteduntil %></li>
+        <li>Amount: <%= thisunit.amount %></li>
+    </ul>
+    <nav>
+        <a href="/unit"><button>Back to the Units Summary</button></a>
+</body>
+</html>

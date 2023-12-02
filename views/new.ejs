@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs')%>
+</head>
+<body>
+    <h1>New Budget</h1>
+    <form action="/budgets" method="POST">
+        <label for="date">Date</label>
+        <input type="text" name="date" id="date">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="amount">Amount</label>
+        <input type="number" name="amount" id="amount">
+        <label for="from">From</label>
+        <input type="text" name="from" id="from"><br>
+        <input type="submit" value="Create Budget">
+    </form>
+</body>
+</html>

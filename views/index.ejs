@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<%- include("./partials/head.ejs") %>    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Budgtr</h1>
+        <a href="/budgets/new">
+            <button>Create Budget</button>
+        </a>
+        <table class="u-full-width">
+            <% for (let i=0; i<budget.length; i++) {%>
+                <tbody>
+                    <tr>
+                        <td>
+                            <%=budget[i].date%>
+                        </td>
+                        <td><a href="/budgets/<%=i %>">
+                        <%=budget[i].name%>
+                    </a></td>
+                    <td>
+                        <%=budget[i].amount %>
+                    </td>
+                    </tr>
+                </tbody>
+            <%}%>
+        </table>
+    </div>
+</body>
+</html>
