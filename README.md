@@ -23,8 +23,8 @@ The Nook is my first attempt to create a full-stack application. The intention o
 * RESTful routes
 
 ## Features
-* Users can read instructions and start the game
-* Users can flip two cards at the same time
+* Users can view the list of their units
+* Users can create a new unit and add it to their portfolio
 * Users can see the timer and have only 60 seconds to win the game
 * Users can match 2 the same cards and see it on the screen 
 * Users can see a pop-up window if the won the game or lost the game and play again 
@@ -32,21 +32,18 @@ The Nook is my first attempt to create a full-stack application. The intention o
   
 ## Whiteboard Scetches
 * Original Whiteboard sketch
-* [Miro](https://miro.com/app/board/uXjVNdX8i8M=/)
-
-## Trello Planning
-* All planning in notebooks
-* [Trello](https://trello.com/b/MkTwlDZ3/project-1)
-
+* [[Miro]([https://miro.com/app/board/uXjVNdX8i8M=/])
+  
 ## <a name="design"></a>Design
-* Design elements implemented using HTML5 and CSS3. 
+* Design elements implemented using node.ejs 
 
 
 ## <a name="nextsteps"></a>Project Next Steps
-* Users can choose multiple players
-* Make it responsive on mobile
-* Users can have multiple level of difficulty
-* UI will be enhanced
+* Users can create detailed budget for each unit
+* Users can upload contracts and files 
+* The application needs to have a login page for each user 
+* Users can access only their information 
+* Users can see budgets only under certain units 
 
 ## <a name="deployment"></a>Deployed Link
 [Memory_Game](https://arlosa999.github.io/Memory-Game/)
@@ -60,4 +57,4 @@ The Nook is my first attempt to create a full-stack application. The intention o
 
 
 ## <a name="author"></a>About The Author
-I am an inspired entrepreneur and am learning code to find my company one day. Here is my first attempt to build a game to practice front-end development. I look for creative solutions to real-world problems and think of technical ways to address them. While no application is ever perfect, I find joy in the process and all my final products!
+I am an inspired entrepreneur and am learning code to find my company one day. Here is my first attempt to build a full-stack application to practice application development. I look for creative solutions to real-world problems and think of technical ways to address them. While no application is ever perfect, I find joy in the process and all my final products!
