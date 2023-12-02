@@ -1,9 +1,9 @@
 # Nook
 
-The goal of this app is to track expenses for each rental properly for small to medium landlords. Landlords can add their properties to the list, add all basic information and track budget against of each unit.
+This app aims to properly track expenses for each rental for small to medium landlords. Landlords can add their properties to the list, add all essential information and track the budget against each unit.
 
 #### A site built from scratch as my first full application project.
-<img src="./Img_library/Game.png" alt="Game Screen"/>
+<img src="./img/nook.png" alt="App Screen"/>
 
 ## Description
 The Nook is my first attempt to create a full-stack application. The intention of developing this application is to demonstrate and practice node.js, express, Mongoose and RESTful routes logic and connect it with HTML and style in CSS in a very condensed period. 
