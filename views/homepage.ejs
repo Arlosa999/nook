@@ -89,13 +89,18 @@
         </div>
 
         <ul>
-            <% for (let i=0; i<unit.length; i++) { %>
+            <% for (let i=0; i<units.length; i++) { %>
                 <li>
-                    <a href="/unit/<%= i %>">
-                        <strong class="unit"><%= unit[i].unit %></strong>
-
-            <% } %>
-        </ul>
+                    <a href="/unit/<%=units[i]._id%>">
+                        <strong class="unit"><%= units[i].unit %></strong>
+                    </a>
+                    <form action="/unit/<%=units[i]._id%>?_method=DELETE" method="POST">
+                        <button type="'submit">DELETE</button>
+                        </form> 
+                    <a href="/unit/<%=units[i]._id%>/edit">EDIT</a>   
+                </li>
+                <% } %>
+                </ul>        
     </div>
 </body>
 </html>
